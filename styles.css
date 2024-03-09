@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+}
+
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 12pt;
+
+    line-height: 1.5;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.952);
+    background-color: #ffffff;
+    position: relative;
+
+    padding: 40px
+}
+
+.cv-page h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(9, 9, 88);
+}
+
+b {
+    font-weight: bold;
+}
+
+.profile-image {
+    position: absolute;
+    top: 50px; /* Điều chỉnh khoảng cách từ trên xuống */
+    left: 700px; /* Điều chỉnh khoảng cách từ trái sang phải */
+    width: 113.386px; /* Đặt kích thước ảnh */
+    height: 151.181px
+}
+
+.cv-page .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section-content p.gray-line {
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 10px; 
+}
+#hobby ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+}
+
